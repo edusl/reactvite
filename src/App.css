@@ -1,8 +1,18 @@
+@font-face {
+  font-family: 'Lobster';
+  src: url('/src/assets/fonts/lobster/Lobster-Regular.ttf') format('ttf');
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: 'Lobster';
+}
+body {
+  font-family: 'Lobster';
 }
 
 .logo {
